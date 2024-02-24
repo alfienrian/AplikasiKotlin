@@ -6,7 +6,13 @@
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
-Aplikasi Android yang dikembangkan dengan menggunakan Kotlin untuk tugas mata kuliah Pemrograman Mobile 1 Pertemuan 3
+Aplikasi Android yang dikembangkan dengan menggunakan bahasa pemrograman Kotlin untuk tugas mata kuliah Pemrograman Mobile 1 Pertemuan 3
+
+## Anggota Kelompok
+- 233307002 (Amindita Maestri)
+- 233307003 (Amrizal Nakharir)
+- 233307004 (Amro Alfien S. N.)
+- 233307019 (Istya Yulia)
 
 ## Tools Yang Digunakan
 - Android Studio

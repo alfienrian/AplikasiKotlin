@@ -1,6 +1,8 @@
 package com.example.aplikasikotlin
 
 import com.example.aplikasikotlin.model.Aquarium
+import com.example.aplikasikotlin.model.Plecostomus
+import com.example.aplikasikotlin.model.Shark
 import com.example.aplikasikotlin.model.TowerTank
 
 fun buildAquarium() {
@@ -8,6 +10,17 @@ fun buildAquarium() {
     myAquarium.printSize()
     val myTower = TowerTank(diameter = 25, height = 40)
     myTower.printSize()
+}
+
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color}")
+    shark.eat()
+    println("Plecostomus: ${pleco.color}")
+    pleco.eat()
+
 }
 
 
@@ -41,5 +54,9 @@ fun buildAquarium() {
 //}
 
 fun main() {
-    buildAquarium()
+    // Codelab 3: Latihan 5
+    // buildAquarium()
+
+    // Codelab 3 : Latihan 6
+    makeFish()
 }

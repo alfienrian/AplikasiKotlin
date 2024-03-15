@@ -15,9 +15,10 @@ class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40)
     * --------------------
     * */
     // 1 liter = 1000 cm^3
+    // Codelab 3 (step 4): Mengatur visibilitas class member
     var volume: Int
         get() = width * height * length / 1000  // 1000 cm^3 = 1 liter
-        set(value) {
+        private set(value) {
             height = (value * 1000) / (width * length)
         }
 
